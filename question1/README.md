@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+🔗 LinkShort - URL Shortener with Analytics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LinkShort is a modern and minimalistic URL shortener application built using React.js. It allows users to transform long links into short, manageable URLs with optional custom aliases and provides insightful click analytics — all stored on the client side using localStorage.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔗 Shorten any long URL
 
-### `npm start`
+📝 Create custom aliases for short links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📊 View analytics including:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Total URLs created
 
-### `npm test`
+Total clicks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Average clicks per URL
 
-### `npm run build`
+Today's click activity
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📅 Track click timestamps per URL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📋 One-click copy to clipboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🗑️ Remove unwanted links easily
 
-### `npm run eject`
+🌐 Fully responsive and mobile-friendly
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🎨 Attractive and intuitive UI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🛠️ Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS3 (custom, responsive styles)
 
-## Learn More
+Lucide Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+localStorage (for data persistence)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Snapshots:-
+ 
+ Desktop :- ![alt text](image.png)
+ Mobile :- ![alt text](image-1.png)
 
-### Code Splitting
+📦 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the Repository
 
-### Analyzing the Bundle Size
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Install Dependencies
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Start the Development Server
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The app will be available at http://localhost:3000
 
-### Deployment
+✨ Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Backend integration for persistent data
 
-### `npm run build` fails to minify
+QR Code generation for short links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+User login and dashboard
+
+Expiry time for links
+
+Analytics dashboard with charts
+
+👩‍💻 Author
+
+Arpita Tiwari
+
+Feel free to connect and share feedback!
+
+⭐ Show Your Support
+
+If you liked this project, please consider giving it a ⭐ on GitHub!
