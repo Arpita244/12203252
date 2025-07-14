@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(145deg, #fdf4ff, #dbeafe);
@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 
-/* Header */
+
 .main-title {
   font-size: 3rem;
   font-weight: bold;
@@ -39,7 +39,7 @@ body {
   margin: 1rem auto;
 }
 
-/* Tabs */
+
 .tab-wrapper {
   display: flex;
   justify-content: center;
@@ -71,7 +71,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Card Component */
 .card {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
@@ -109,7 +108,7 @@ body {
   box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
 }
 
-/* Primary Action Button */
+
 .primary-button {
   background: linear-gradient(to right, #7c3aed, #3b82f6);
   color: white;
@@ -129,14 +128,13 @@ body {
   background: linear-gradient(to right, #6d28d9, #2563eb);
 }
 
-/* URL List */
+
 .url-list {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
-/* Individual URL Card */
 .url-card {
   background: #ffffffcc;
   border-radius: 1rem;
@@ -167,7 +165,6 @@ body {
   text-decoration: underline;
 }
 
-/* URL Card Buttons */
 .url-actions {
   display: flex;
   flex-wrap: wrap;
@@ -188,7 +185,7 @@ body {
   background-color: #e5e7eb;
 }
 
-/* Analytics Grid */
+
 .analytics-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -206,7 +203,7 @@ body {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.06);
 }
 
-/* Top URL List */
+
 .top-urls h3 {
   font-size: 1.2rem;
   color: #1f2937;
@@ -229,7 +226,6 @@ body {
   margin-top: 2rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .main-title {
     font-size: 2.2rem;
