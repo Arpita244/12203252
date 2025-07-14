@@ -1,118 +1,127 @@
-
-
+/* Global Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #f3e8ff, #dbeafe);
+  background: linear-gradient(145deg, #fdf4ff, #dbeafe);
   margin: 0;
   padding: 0;
   color: #1f2937;
 }
 
 .container {
-  padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
+  padding: 2rem;
+  margin: auto;
 }
 
-
+/* Header */
 .main-title {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: #1e1b4b;
+  color: #2e1065;
+  text-align: center;
+  margin-bottom: 0.25rem;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  text-align: center;
   color: #4b5563;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
 
 .icon-wrapper {
+  display: flex;
+  justify-content: center;
   background: linear-gradient(45deg, #7c3aed, #3b82f6);
-  padding: 0.8rem;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem;
+  border-radius: 9999px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
 }
 
+/* Tabs */
 .tab-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  flex-wrap: wrap;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .tab-button {
-  padding: 0.75rem 1.8rem;
-  font-size: 1rem;
-  background: #fff;
+  padding: 0.8rem 2rem;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
   color: #4b5563;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
   cursor: pointer;
   transition: all 0.3s ease;
-  font-weight: 500;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tab-button:hover {
+  background: #f1f5f9;
 }
 
 .tab-button.active {
   background: linear-gradient(to right, #7c3aed, #3b82f6);
-  color: white;
-  font-weight: bold;
+  color: #fff;
   transform: scale(1.05);
 }
 
-
+/* Card Component */
 .card {
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
   border-radius: 1.25rem;
   padding: 2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
   margin-bottom: 2rem;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
 }
 
 .card label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #4b5563;
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 600;
+  color: #374151;
 }
 
 .card input {
   width: 100%;
   padding: 0.75rem 1rem;
-  border-radius: 0.75rem;
+  margin-bottom: 1rem;
   border: 1px solid #d1d5db;
-  margin-bottom: 1.25rem;
-  transition: 0.3s;
-  outline: none;
-  background-color: white;
+  border-radius: 0.75rem;
+  background: white;
+  transition: border 0.3s ease;
 }
 
 .card input:focus {
   border-color: #7c3aed;
+  outline: none;
   box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
 }
 
-
+/* Primary Action Button */
 .primary-button {
   background: linear-gradient(to right, #7c3aed, #3b82f6);
   color: white;
-  padding: 0.9rem;
   width: 100%;
-  font-weight: 600;
+  padding: 0.85rem;
   font-size: 1rem;
-  border-radius: 0.75rem;
+  font-weight: 600;
   border: none;
+  border-radius: 0.75rem;
   cursor: pointer;
-  transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(124, 58, 237, 0.3);
+  transition: all 0.3s ease;
 }
 
 .primary-button:hover {
@@ -120,31 +129,32 @@ body {
   background: linear-gradient(to right, #6d28d9, #2563eb);
 }
 
-
+/* URL List */
 .url-list {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
+/* Individual URL Card */
 .url-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: #ffffffcc;
   border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
-  transition: 0.3s ease;
+  align-items: center;
+  gap: 1rem;
 }
 
-.url-card:hover {
-  transform: scale(1.01);
+.url-meta {
+  flex-grow: 1;
 }
 
 .url-meta p {
-  margin: 0.4rem 0;
+  margin: 0.3rem 0;
   word-break: break-word;
 }
 
@@ -157,39 +167,46 @@ body {
   text-decoration: underline;
 }
 
+/* URL Card Buttons */
+.url-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
 .url-actions button {
   background-color: #f3f4f6;
   border: none;
   padding: 0.5rem 1rem;
-  margin-left: 0.5rem;
   border-radius: 0.5rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: background 0.2s;
 }
 
 .url-actions button:hover {
   background-color: #e5e7eb;
 }
 
-
+/* Analytics Grid */
 .analytics-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
 }
 
 .analytics .card {
-  flex: 1 1 200px;
   text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.06);
 }
 
+/* Top URL List */
 .top-urls h3 {
   font-size: 1.2rem;
   color: #1f2937;
@@ -208,7 +225,38 @@ body {
 
 .empty-message {
   text-align: center;
-  font-size: 1rem;
   color: #9ca3af;
   margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .tab-button {
+    flex: 1 1 100%;
+    font-size: 0.95rem;
+  }
+
+  .url-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .analytics .card {
+    font-size: 1rem;
+    padding: 1.25rem;
+  }
+
+  .top-url {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
 }
