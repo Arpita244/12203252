@@ -1,5 +1,3 @@
-// Your task is to create a user friendly URL shortener application that provides core URL shortening functionality
-// and displlays analytical insights , all managed within the client side application
 
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
