@@ -1,83 +1,84 @@
-🔗 LinkShort - URL Shortener with Analytics
+# 🔗 LinkShort - URL Shortener with Analytics
 
-LinkShort is a modern and minimalistic URL shortener application built using React.js. It allows users to transform long links into short, manageable URLs with optional custom aliases and provides insightful click analytics — all stored on the client side using localStorage.
+LinkShort is a modern and minimalistic URL shortener application built using **React.js**. It allows users to transform long links into short, manageable URLs with optional custom aliases and provides insightful click analytics — all stored on the client side using `localStorage`.
 
-🚀 Features
+---
 
-🔗 Shorten any long URL
+## 🚀 Features
 
-📝 Create custom aliases for short links
+- 🔗 Shorten any long URL
+- 📝 Create custom aliases for short links
+- 📊 View analytics including:
+  - Total URLs created
+  - Total clicks
+  - Average clicks per URL
+  - Today's click activity
+- 📅 Track click timestamps per URL
+- 📋 One-click copy to clipboard
+- 🗑️ Remove unwanted links easily
+- 🌐 Fully responsive and mobile-friendly
+- 🎨 Attractive and intuitive UI
 
-📊 View analytics including:
+---
 
-Total URLs created
+## 🛠️ Technologies Used
 
-Total clicks
+- **React.js**
+- **CSS3** (custom, responsive styles)
+- **Lucide Icons**
+- **localStorage** (for data persistence)
 
-Average clicks per URL
+---
 
-Today's click activity
+## 📊 Snapshots
 
-📅 Track click timestamps per URL
+- **Desktop**:
+  ![Desktop Screenshot](image.png)
+- **Mobile**:
+  ![Mobile Screenshot](image-1.png)
 
-📋 One-click copy to clipboard
+---
 
-🗑️ Remove unwanted links easily
+## 📦 Getting Started
 
-🌐 Fully responsive and mobile-friendly
-
-🎨 Attractive and intuitive UI
-
-🛠️ Technologies Used
-
-React.js
-
-CSS3 (custom, responsive styles)
-
-Lucide Icons
-
-localStorage (for data persistence)
-
-Snapshots:-
- 
- Desktop :- ![alt text](image.png)
- Mobile :- ![alt text](image-1.png)
-
-📦 Getting Started
-
-1. Clone the Repository
-
-git clone https://github.com/your-username/url-shortener.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Arpita244/url-shortener.git
 cd url-shortener
+```
 
-2. Install Dependencies
-
+### 2. Install Dependencies
+```bash
 npm install
+```
 
-3. Start the Development Server
-
+### 3. Start the Development Server
+```bash
 npm start
+```
 
-The app will be available at http://localhost:3000
+The app will be available at `http://localhost:3000`
 
-✨ Future Enhancements
+---
 
-Backend integration for persistent data
+## ✨ Future Enhancements
 
-QR Code generation for short links
+- Backend integration for persistent data
+- QR Code generation for short links
+- User login and dashboard
+- Expiry time for links
+- Analytics dashboard with charts
 
-User login and dashboard
+---
 
-Expiry time for links
+## 👩‍💻 Author
 
-Analytics dashboard with charts
-
-👩‍💻 Author
-
-Arpita Tiwari
+**Arpita Tiwari**
 
 Feel free to connect and share feedback!
 
-⭐ Show Your Support
+---
 
-If you liked this project, please consider giving it a ⭐ on GitHub!
+## ⭐ Show Your Support
+
+If you liked this project, please consider giving it a ⭐ on [GitHub](https://github.com/Arpita244/url-shortener)!
